@@ -1,0 +1,29 @@
+# ---- Common (OS / IDE) ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+logs/
+
+# ---- Java/Maven/Spring ----
+target/
+.classpath
+.project
+.settings/
+.factorypath
+hs_err_pid*.log
+
+# Maven Wrapper: di solito SI COMMITTA (consigliato)
+# Se NON lo vuoi in repo, tieni questa riga; altrimenti rimuovila:
+.mvn/wrapper/maven-wrapper.jar
+
+# ---- Env / config locali ----
+.env
+.env.local
+application-local.properties
+application-*.local.properties
+
+# ---- Templates opzionali
+_templates/
